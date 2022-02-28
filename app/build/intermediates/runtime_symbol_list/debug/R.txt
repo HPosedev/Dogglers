@@ -1771,6 +1771,7 @@ int id action_text 0x7f080041
 int id actions 0x7f080042
 int id activity_chooser_view_content 0x7f080043
 int id add 0x7f080044
+int id age_Dog 0x7f0801ab
 int id alertTitle 0x7f080045
 int id aligned 0x7f080046
 int id all 0x7f080047
@@ -1887,6 +1888,7 @@ int id groups 0x7f0800b5
 int id guideline 0x7f0800b6
 int id header_title 0x7f0800b7
 int id hideable 0x7f0800b8
+int id hobbie_dog 0x7f0801ac
 int id home 0x7f0800b9
 int id homeAsUp 0x7f0800ba
 int id honorRequest 0x7f0800bb
@@ -1898,6 +1900,7 @@ int id ifRoom 0x7f0800c0
 int id ignore 0x7f0800c1
 int id ignoreRequest 0x7f0800c2
 int id image 0x7f0800c3
+int id imageView_dog 0x7f0801ad
 int id info 0x7f0800c4
 int id invisible 0x7f0800c5
 int id inward 0x7f0800c6
@@ -1971,6 +1974,7 @@ int id mtrl_picker_text_input_range_start 0x7f080109
 int id mtrl_picker_title_text 0x7f08010a
 int id mtrl_view_tag_bottom_padding 0x7f08010b
 int id multiply 0x7f08010c
+int id name_dog 0x7f0801ae
 int id navigation_header_container 0x7f08010d
 int id never 0x7f08010e
 int id noScroll 0x7f08010f

@@ -26,8 +26,7 @@ import androidx.recyclerview.widget.RecyclerView
  */
 class DogCardAdapter(
     private val context: Context?,
-    private val layout: Int
-): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
+    private val layout: Int): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
     // TODO: Initialize the data using the List found in data/DataSource
 
