@@ -41,7 +41,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="194dp"
-            android:id="@+id/imageView_grid"
+            android:id="@+id/imageView_dog"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:scaleType="centerCrop"/>
@@ -53,9 +53,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/name_grid_dog"
+            android:id="@+id/name_dog"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView_grid"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_dog"
             android:paddingStart="8dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
@@ -66,9 +66,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/age_grid_dog"
+            android:id="@+id/age_dog"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name_grid_dog"
+            app:layout_constraintTop_toBottomOf="@+id/name_dog"
             android:paddingStart="8dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
@@ -79,9 +79,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/hobbie_grid_dog"
+            android:id="@+id/hobbie_dog"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/age_grid_dog"
+            app:layout_constraintTop_toBottomOf="@+id/age_dog"
             android:paddingStart="8dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"

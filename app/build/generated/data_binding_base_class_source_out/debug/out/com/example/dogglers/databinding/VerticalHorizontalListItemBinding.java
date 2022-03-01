@@ -69,7 +69,7 @@ public final class VerticalHorizontalListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.age_Dog;
+      id = R.id.age_dog;
       TextView ageDog = ViewBindings.findChildViewById(rootView, id);
       if (ageDog == null) {
         break missingId;
