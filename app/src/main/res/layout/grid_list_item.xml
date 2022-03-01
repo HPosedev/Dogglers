@@ -34,14 +34,63 @@
                 since there is less room in terms of width.-->
 
         <!-- TODO: Create an ImageView resource for the image of the dog.
-               The height should be 194dp
-               The width should match the with of the card
-               The scaleType should be set to centerCrop-->
+                       The height should be 194dp
+                       The width should match the with of the card
+                       The scaleType should be set to centerCrop-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:id="@+id/imageView_grid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"/>
 
         <!-- TODO: Create a TextView for each of the following:
                 The dog's name
                 The dog's age
                 The dog's hobbies-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_grid_dog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_grid"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:text="Name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/age_grid_dog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_grid_dog"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textAppearance="?attr/textAppearanceBody1"
+            tools:text="Age"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hobbie_grid_dog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/age_grid_dog"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            android:textAppearance="?attr/textAppearanceBody1"
+            tools:text="Hobbies"
+            />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
